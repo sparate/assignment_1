@@ -64,7 +64,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ### ** 5. Start the RabbitMQ Consumer**
 Run the consumer script to process messages:
 ```bash
-python3 consumer.py
+python3 main.py
 ```
 
 ---
@@ -96,7 +96,7 @@ python3 main.py --file data.csv
 Run the server and consumer in the background:  
 ```bash
 nohup uvicorn main:app --host 0.0.0.0 --port 8000 &  
-nohup python3 consumer.py &
+nohup python3 c.py &
 ```
 
 ---
