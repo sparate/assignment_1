@@ -49,8 +49,9 @@ psql -U my_user -d my_database -f schema.sql
 
 
 ### * API Endpoints:
-Method	| Endpoint	                            | Description
-GET	    | /data?page_no=1&pagesize=10&name=John	| Fetch paginated user data
+Method	: GET  	                            
+Endpoint	: /data?page_no=1&pagesize=10&name=John	
+Description : Fetch paginated user data
 
 
 Processing Large CSV Files
