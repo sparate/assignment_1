@@ -96,7 +96,7 @@ python3 main.py --file data.csv
 Run the server and consumer in the background:  
 ```bash
 nohup uvicorn main:app --host 0.0.0.0 --port 8000 &  
-nohup python3 c.py &
+nohup python3 main.py &
 ```
 
 ---
