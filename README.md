@@ -27,7 +27,7 @@ cd assignment_1
 ### ** 2. Set Up Environment Variables**
 Create a `.env` file:
 ```bash
-cp .env.example .env
+cp .env.sanjay .env
 nano .env
 ```
 Modify the values accordingly:
